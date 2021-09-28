@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Panel = styled.form`
-  display: ${props =>  props.display};
+  display: ${(props) => props.display};
   width: 600px;
   height: 150px;
   border: 3px #101 solid;
