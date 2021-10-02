@@ -1,4 +1,4 @@
-            button {
+            button.btn-cnt {
                 background-color: orange;
                 border: 0;
                 height: 28px;
@@ -6,24 +6,106 @@
                 margin: 0px;
                 border-radius: 8px
             }
-            
+
+            /* Info icon */
+            button.info_Btn {
+                font-size: 30px;
+                color: rgb(218, 46, 46);
+                background-color: white;
+                border: none;
+
+                /* width: 10px;
+                height: 10px */
+            }
+
+            /* 
+            label.pagesLine .info-icon {
+                  
+                   font-size: 30px;
+            } */
+
+
+            /*------  */
+
             input[type=text] {
                 margin: 0px;
                 width: 50px;
                 height: 28px;
                 border: 0px;
             }
+
             /* input[type=text]:hover {
                  border: 3px
              } */
-            
+
             label.p {
                 margin-left: 3px
             }
-            
+
             label.pagesLine {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: baseline;
+            }
+
+            .Budget-Name p {
+                color: rgb(0, 0, 0);
+                display: flex;
+                flex-direction: column;
+                margin-left: 20px;
+
+
+            }
+    /*budget name and clinet name */
+            .Budget-Name input[type=text] {
+                border: 2px solid rgba(235, 233, 233, 0.193);
+                border-radius: 4px;
+                /* box-sizing: border-box; */
+                padding: 12px 20px;
+                margin: 2px 0;
+                width: 90%;
+                height: 40px;
+                margin-left: 15px;
+
+            }
+
+            .newBudget-submit {
+                display: flex; 
+                flex-direction: column;
+                
+                border: 2px solid rgb(0, 30, 255);
+                width: 40%;
+            }
+            .Budget-Name button {
+                width: 40%;
+                height: 2rem;
+                background-color: #85959a;
+                font-size: 1.3rem;
+                color: #fff;
+                 margin-top: 1.2em;
+                text-align: center;
+                margin-left: 25%;
+                margin-right: 25%;
+                border-style: none;
+                /* text-align: center;
+                align-content: center; */
+                
+                
+            }
+            
+            .budget-list {
+                color: rgb(113, 111, 111);
+                display: flex;
+                flex-direction: column;
+               
+                align-items: flex-start;
+                margin-left: 20px;
+            }
+            .Budget-and-from {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 50px;
+
             }

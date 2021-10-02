@@ -1,6 +1,6 @@
 import React from "react";
 import "./Inputs.css";
-
+import PopUpButton from "./PopUpButton";
 function Inputs(props) {
   const incrementPage = () => {
     props.setNumPage((prev) => Number(prev) + 1);
@@ -29,7 +29,7 @@ function Inputs(props) {
     <div>
       <label className="pagesLine">
         <p> How many pages:</p>
-        <button type="button" onClick={incrementPage}>
+        <button className="btn-cnt" type="button" onClick={incrementPage}>
           ➕
         </button>
         <input
@@ -38,20 +38,22 @@ function Inputs(props) {
           maxLength="2"
           onChange={checkRegHandler}
         />
-        <button type="button" onClick={decrementPage}>
+        <button className="btn-cnt" type="button" onClick={decrementPage}>
           ➖
         </button>
+        <PopUpButton />
       </label>
 
       <label className="pagesLine">
         <p> How many languages:</p>
-        <button type="button" onClick={incrementLan}>
+        <button className="btn-cnt" type="button" onClick={incrementLan}>
           ➕
         </button>
         <input type="text" value={props.numLanguages} readOnly />
-        <button type="button" onClick={decrementLan}>
+        <button className="btn-cnt" type="button" onClick={decrementLan}>
           ➖
         </button>
+        <PopUpButton />
       </label>
     </div>
   );
