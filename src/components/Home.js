@@ -5,8 +5,7 @@ function Home (){
       <div className="home-style">
         <h3>We are </h3>
         <h2>
-          Our purpose is to build a new modern websites, creating a gab between
-          our products and the rest of the web
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maiores, reiciendis ea repellat nemo eveniet voluptas odio quaerat dolorum harum accusamus tenetur dolore officia sapiente commodi vel impedit! Hic, magni!
         </h2>
       </div>
     );
